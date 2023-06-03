@@ -1,4 +1,4 @@
-#Locksmith Business Website
+# Locksmith Business Website
 The project is powered by a [Chicago locksmith company](https://chicagolocksmithexpert.com/) that provides residential and commercial locksmith services in Chicago, IL.
 The purpose of this website design is to help others recreate a basic website that's elegant and responsive.
 This website should be useful to local businesses to establish their presence online.
