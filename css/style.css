@@ -1,0 +1,131 @@
+body {
+   margin: 0;
+   padding: 0;
+	color: #222;
+}
+
+a {
+	color: #218bff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #222;
+}
+
+h1, h2, h3, h4 {
+   text-align: center;
+}
+
+img {
+	max-width: 100%; 
+}
+
+header {
+   background-color: #0085f230;
+   padding: 40px;
+}
+
+.title{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase; 
+	line-height: 1.1;
+}
+
+.tagline{
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.1;
+}
+
+nav {
+   background: #333;
+   color: #f9f9f9;
+   padding: 10px;
+}
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+ }
+
+ nav ul li {
+   margin-right: 20px;
+ }
+
+ nav ul li a,
+ nav ul li a:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+
+.container {
+	margin: 40px 20px;
+}
+
+ section {
+   padding: 40px;
+ }
+
+.container-flex {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.one-column {
+  flex-basis: 100%; /* Adjust the width of each column as needed */
+  margin-bottom: 20px; /* Adjust the gap between columns as needed */
+}
+
+.two-column {
+  flex-basis: calc(50% - 20px); /* Adjust the width of each column as needed */
+  margin-right: 20px; /* Adjust the gap between columns as needed */
+  margin-bottom: 20px; /* Adjust the gap between columns as needed */
+}
+
+.three-column {
+  flex-basis: calc(33% - 20px); /* Adjust the width of each column as needed */
+  margin-right: 20px; /* Adjust the gap between columns as needed */
+  margin-bottom: 20px; /* Adjust the gap between columns as needed */
+}
+
+.four-column {
+  flex-basis: calc(25% - 20px); /* Adjust the width of each column as needed */
+  margin-right: 20px; /* Adjust the gap between columns as needed */
+  margin-bottom: 20px; /* Adjust the gap between columns as needed */
+}
+
+section#servicebox {
+	background: #e6f4ea;
+	border-radius: 10px;
+}
+
+section#contact {
+	background: #0085f230;
+	border-radius: 10px;
+}
+
+footer#footer {
+	padding: 40px;
+	background: #0085f230;
+	border-radius: 10px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+
+	.one-column,
+	.two-column,
+	.three-column,
+	.four-column {
+	  flex-basis: 100%; /* Adjust the width of each column as needed */
+	}
+
+
+ }
